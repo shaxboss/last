@@ -1,0 +1,48 @@
+@media screen and (min-width: 300px) and (max-width: 768px){
+    body{width: 600px; margin: 0 auto; background: #100e19; color: #ffffffb8; font-family: sans-serif; min-height: 300vh; padding: 5px 10px;}
+    a{color: #ffffffb8; text-decoration: none;}
+    svg{height: 15px; width: 15px; fill: #ffffffb8;}
+    *{box-sizing: border-box; padding: 0; margin: 0;}
+    .flex{display: flex;}
+    .fdc{display: flex; flex-direction: column;}
+    .aic{align-items: center;}
+    .aie{align-items: end;}
+    .jcsb{justify-content: space-between;}
+    .wrap{flex-wrap: wrap;}
+    .vuz{font-size: 30px; position: absolute; background: rgb(2,0,36);
+        background: linear-gradient(0deg, black 0%, rgba(0,0,0,0) 100%); padding: 10px; width: 100%; bottom: 0; left: 0; height: 80%; justify-content: end; color: white;}
+    .vuz span{font-size: 22px;}
+    .head{position: relative; border-radius: 15px; overflow: hidden; margin-top: 20px;}
+    .location{margin-bottom: 30px; font-size: 14px;}
+    .location svg{margin-right: 5px;}
+    .head{height: 250px; width: 100%; overflow: hidden; position: relative; margin-bottom: 0;}
+    .head video{position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; object-fit: cover;}
+    .location a{
+        /* border: 1px solid #ffffffb8; */
+        border-radius: 10px; padding: 5px; color: #ea003d;}
+    .tabSwitchers p, .button{padding: 5px 10px; 
+        /* background: #ea003d; */
+        background: #73a32f94; margin-right: 2px; border-radius: 5px; cursor: pointer; transition: all .3s ease; color: white;
+    }
+    .button{background: #73a32f; width: max-content;}
+    .tabSwitchers p.active{background: #73a32f;}
+    .faculties .row{padding: 5px 0;}
+    .faculties .row:nth-child(odd), .properties .row:nth-child(odd){background: #1f183d73;}
+    .faculties .left{max-width: 70%;}
+    .faculties .left>p:first-child{margin-right: 10px; font-size: 18px;}
+    .tabs .tab, .dn{display: none;}
+    .tabs .tab.active{display: block;}
+    .subjects{margin-top: 5px;}
+    .subjects p{font-size: 10px; margin:0 3px 3px 0; background: #ff0f4d; padding: 2px 5px; border-radius: 100px; color: white;}
+    .properties{margin-top: 10px;}
+    .properties span{color: white; margin-right: 10px;}
+    .subtitle{color: white; font-size: 30px; margin-bottom: 10px;}
+    .properties .row p{width: 50%; padding: 5px 0;}
+    section{margin-bottom: 30px;}
+    .studying form{padding-top: 15px; width: max-content;}
+    .studying .items p, .from, .to, .till, .levels p, .studying .submit{margin: 0 10px 10px 0; padding: 2px 5px; border-radius: 5px; border: 1px solid transparent; cursor: pointer; transition: all .3s;}
+    .studying .items p.active, .from, .to, .till, .levels p.active, .studying .submit{border-color: white;}
+    .studying .submit{text-align: center; margin-bottom: 0;}
+    .studying .from .dd.scroll, .studying .to .dd.scroll{max-height: 40vh; overflow-y: scroll;}
+    .fromTo{align-items: start;}
+}
